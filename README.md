@@ -15,4 +15,16 @@ The following techniques have been used:
  - All the above said modelling techniques are tried and evaluated. The final metric used to evaluate is mean squared error.
 
 ## To excute the script
-python < scriptname.py >
+ ### Created conda environment
+  - conda create --name devops-dev python=3.9
+  - conda activate devops-dev
+  - conda install pandas numpy matplotlib six scikit-learn
+
+ ### Run Python code
+  - python nonstandardcode.py>
+
+ ### Exported conda environment
+  - conda env export --name devops-dev > env.yml
+
+ ### Create conda environment using env.yml
+  - conda env create -f env.yml
