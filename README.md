@@ -21,7 +21,7 @@ The following techniques have been used:
   - conda install pandas numpy matplotlib six scikit-learn
 
  ### Run Python code
-  - python nonstandardcode.py>
+  - python nonstandardcode.py
 
  ### Exported conda environment
   - conda env export --name devops-dev > env.yml
